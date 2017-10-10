@@ -15,6 +15,8 @@
 		111EAA671F8C773500FDAE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111EAA651F8C773500FDAE31 /* LaunchScreen.storyboard */; };
 		111EAA721F8C773500FDAE31 /* XLPagerTabStripSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EAA711F8C773500FDAE31 /* XLPagerTabStripSampleTests.swift */; };
 		111EAA7D1F8C773500FDAE31 /* XLPagerTabStripSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EAA7C1F8C773500FDAE31 /* XLPagerTabStripSampleUITests.swift */; };
+		111EAA8B1F8C79FA00FDAE31 /* Chenge1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EAA8A1F8C79FA00FDAE31 /* Chenge1ViewController.swift */; };
+		111EAA8D1F8C7A0D00FDAE31 /* Chenge2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EAA8C1F8C7A0D00FDAE31 /* Chenge2ViewController.swift */; };
 		11A1E76796E21242EF6E9583 /* Pods_XLPagerTabStripSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC573EE59A6483DE0D0FA88 /* Pods_XLPagerTabStripSampleTests.framework */; };
 		8EA1E2DAE438176408219206 /* Pods_XLPagerTabStripSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E8741BFEDE7D0000A98DE3 /* Pods_XLPagerTabStripSample.framework */; };
 		BC27079AF13184581D887239 /* Pods_XLPagerTabStripSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F9C197081E30B05910A050 /* Pods_XLPagerTabStripSampleUITests.framework */; };
@@ -54,6 +56,8 @@
 		111EAA781F8C773500FDAE31 /* XLPagerTabStripSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStripSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		111EAA7C1F8C773500FDAE31 /* XLPagerTabStripSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLPagerTabStripSampleUITests.swift; sourceTree = "<group>"; };
 		111EAA7E1F8C773500FDAE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111EAA8A1F8C79FA00FDAE31 /* Chenge1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chenge1ViewController.swift; sourceTree = "<group>"; };
+		111EAA8C1F8C7A0D00FDAE31 /* Chenge2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chenge2ViewController.swift; sourceTree = "<group>"; };
 		3B0A5F5CA2CA780D6F498CBB /* Pods-XLPagerTabStripSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLPagerTabStripSampleTests/Pods-XLPagerTabStripSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B2133A7A2C230985154A156 /* Pods-XLPagerTabStripSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLPagerTabStripSampleTests/Pods-XLPagerTabStripSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E41B7E339DB29AE942F16BC /* Pods-XLPagerTabStripSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLPagerTabStripSample/Pods-XLPagerTabStripSample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				111EAA651F8C773500FDAE31 /* LaunchScreen.storyboard */,
 				111EAA681F8C773500FDAE31 /* Info.plist */,
 				111EAA601F8C773500FDAE31 /* XLPagerTabStripSample.xcdatamodeld */,
+				111EAA8A1F8C79FA00FDAE31 /* Chenge1ViewController.swift */,
+				111EAA8C1F8C7A0D00FDAE31 /* Chenge2ViewController.swift */,
 			);
 			path = XLPagerTabStripSample;
 			sourceTree = "<group>";
@@ -464,6 +470,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111EAA8D1F8C7A0D00FDAE31 /* Chenge2ViewController.swift in Sources */,
+				111EAA8B1F8C79FA00FDAE31 /* Chenge1ViewController.swift in Sources */,
 				111EAA5C1F8C773500FDAE31 /* ViewController.swift in Sources */,
 				111EAA621F8C773500FDAE31 /* XLPagerTabStripSample.xcdatamodeld in Sources */,
 				111EAA5A1F8C773500FDAE31 /* AppDelegate.swift in Sources */,
@@ -725,6 +733,7 @@
 				111EAA831F8C773500FDAE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		111EAA841F8C773500FDAE31 /* Build configuration list for PBXNativeTarget "XLPagerTabStripSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +742,7 @@
 				111EAA861F8C773500FDAE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		111EAA871F8C773500FDAE31 /* Build configuration list for PBXNativeTarget "XLPagerTabStripSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +751,7 @@
 				111EAA891F8C773500FDAE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -35,10 +35,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Chenge1 View Controller-->
         <scene sceneID="51K-zk-vHE">
             <objects>
-                <viewController id="WS2-h9-l6c" sceneMemberID="viewController">
+                <viewController id="WS2-h9-l6c" customClass="Chenge1ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EHN-jE-vuO"/>
                         <viewControllerLayoutGuide type="bottom" id="bxG-9T-nkh"/>
@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="-255.19999999999999" y="780.35982008995506"/>
         </scene>
-        <!--View Controller-->
+        <!--Chenge2 View Controller-->
         <scene sceneID="cY1-hP-Gwp">
             <objects>
-                <viewController id="1Yg-xW-nyl" sceneMemberID="viewController">
+                <viewController id="1Yg-xW-nyl" customClass="Chenge2ViewController" customModule="XLPagerTabStripSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Wg-sZ-IM9"/>
                         <viewControllerLayoutGuide type="bottom" id="vRv-rJ-mjB"/>
