@@ -49,15 +49,18 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="containerView" destination="5nR-CO-Ljo" id="NW7-jR-GrX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+            <point key="canvasLocation" x="130" y="92"/>
         </scene>
         <!--Chenge1 View Controller-->
         <scene sceneID="51K-zk-vHE">
             <objects>
-                <viewController id="WS2-h9-l6c" customClass="Chenge1ViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="First" storyboardIdentifier="First" id="WS2-h9-l6c" customClass="Chenge1ViewController" customModule="XLPagerTabStripSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EHN-jE-vuO"/>
                         <viewControllerLayoutGuide type="bottom" id="bxG-9T-nkh"/>
@@ -84,7 +87,7 @@
         <!--Chenge2 View Controller-->
         <scene sceneID="cY1-hP-Gwp">
             <objects>
-                <viewController id="1Yg-xW-nyl" customClass="Chenge2ViewController" customModule="XLPagerTabStripSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Second" storyboardIdentifier="Second" id="1Yg-xW-nyl" customClass="Chenge2ViewController" customModule="XLPagerTabStripSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Wg-sZ-IM9"/>
                         <viewControllerLayoutGuide type="bottom" id="vRv-rJ-mjB"/>
